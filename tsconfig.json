@@ -1,0 +1,31 @@
+{
+  "references": [
+    {
+      "path": "./packages/app-studio-toolkit"
+    },
+    {
+      "path": "./packages/app-studio-toolkit-types"
+    },
+    {
+      "path": "./packages/npm-dependencies-validation"
+    },
+    {
+      "path": "./packages/vscode-dependencies-validation"
+    },
+    {
+      "path": "./packages/vscode-deps-upgrade-tool"
+    },
+    {
+      "path": "./examples/sample-action-client"
+    },
+    {
+      "path": "./examples/vscode-using-workspace-api"
+    },
+    {
+      "path": "./examples/vscode-using-upgrade-tool"
+    }
+  ],
+  "files": [],
+  "include": [],
+  "exclude": []
+}

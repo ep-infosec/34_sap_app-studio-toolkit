@@ -1,0 +1,14 @@
+# ignore everything
+**
+
+# except
+!LICENSES
+!LICENSE
+!.reuse
+!README.md
+!package.json
+!icon.png
+# bundled sources
+!dist/
+# the source maps point to src/ dir
+!src/

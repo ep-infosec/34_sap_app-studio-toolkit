@@ -1,0 +1,33 @@
+{
+  "name": "vscode-using-workspace-api",
+  "private": "true",
+  "version": "1.8.3",
+  "publisher": "SAPOSS",
+  "engines": {
+    "vscode": "^1.32.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SAP/app-studio-toolkit"
+  },
+  "main": "./dist/src/extension.js",
+  "scripts": {
+    "ci": "npm-run-all clean compile",
+    "clean": "rimraf dist *.vsix",
+    "compile": "tsc -p ./",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@sap-devx/app-studio-toolkit-types": "^1.8.3"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "extensionDependencies": [
+    "SAPOSS.app-studio-toolkit"
+  ],
+  "contributes": {}
+}
